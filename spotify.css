@@ -416,5 +416,23 @@ button:hover {
     opacity: 0.5;
 }
 .options input{
-   appearance: none;
+    width:40%;
+    margin-top:0.4rem ;
+    margin:0.4rem 0.4rem; 
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.options input::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    height: 0.25rem;
+    border-radius: 0.5rem;
+}
+.options input::-webkit-slider-thumb{
+    appearance: none;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: green;
+    margin-top: -3.9px;
+    border-radius: 50%;
 }
